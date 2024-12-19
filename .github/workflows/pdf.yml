@@ -32,7 +32,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
   deploy:
     runs-on: ubuntu-latest
-    needs: build-pdf
+    needs: build
     permissions:
       pages: write
       id-token: write
