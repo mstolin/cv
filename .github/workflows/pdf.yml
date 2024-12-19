@@ -20,6 +20,10 @@ jobs:
           sudo apt install -y \
             latexmk \
             texlive-full
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+      - run: pip install -r requirements.txt
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Create _site directory
