@@ -19,7 +19,7 @@ jobs:
         run: |
           sudo apt install -y \
             latexmk \
-            texlive
+            texlive-full
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Create _site directory
