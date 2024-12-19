@@ -39,7 +39,7 @@ jobs:
       - name: Create _site directory
         run: mkdir _site
       - name: Build PDF(s)
-        run: ./build.sh
+        run: ./build_pdf.sh
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3
   deploy-gh:
