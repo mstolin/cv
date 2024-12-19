@@ -18,7 +18,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Create .tex file(s)
-        run: ./get_tex.sh
+        run: ./gen_tex.sh
       - name: Upload latex document as artifact
         uses: actions/upload-artifact@v4
         with:
