@@ -14,26 +14,26 @@ An example is available at [marcel.to/cv/short.pdf](https://marcel.to/cv/short.p
 
 ## Requirements
 
-- [Python](https://www.python.org/)
-- [Tex Live](https://www.tug.org/texlive/) (use _texlive-full_ to guarantee that everything works)
-- [Latexmk](https://ctan.org/pkg/latexmk/)
+-   [Python](https://www.python.org/)
+-   [Tex Live](https://www.tug.org/texlive/) (use _texlive-full_ to guarantee that everything works)
+-   [Latexmk](https://ctan.org/pkg/latexmk/)
 
 ## Manual Build
 
 1. Create and activate a virtual-env.
-   ```sh
-   python -m venv .venv
-   source .venv/bin/activate
-   ```
+    ```sh
+    python -m venv .venv
+    source .venv/bin/activate
+    ```
 2. Install dependencies.
-   ```sh
-   pip install -r requirements.txt
-   ```
+    ```sh
+    pip install -r requirements.txt
+    ```
 3. Run the script to generate `.tex` files. Additionally, a build script is available at `gen_tex.sh`.
-   ```sh
-   python gen_cv.py data/short.json templates/jakes_resume.tex.jinja2 short.tex
-   ```
+    ```sh
+    python gen_cv.py data/short.json templates/jakes_resume.tex.jinja2 short.tex
+    ```
 4. Build the `.pdf` file. A build script is available at `build_pdf.sh`.
-   ```sh
-   latexmk -interaction=nonstopmode -file-line-error -pdf -halt-on-error -shell-escape -outdir=. short.tex
-   ```
+    ```sh
+    latexmk -interaction=nonstopmode -file-line-error -pdf -halt-on-error -shell-escape -outdir=. short.tex
+    ```
