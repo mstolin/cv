@@ -121,7 +121,7 @@
                 },
                 {
                     "title": "Tools",
-                    "text": "Ansible, Docker, Packer, Podman, Terraform, WebAssembly, WebAssembly Component Model"
+                    "text": "Ansible, Docker, Linux, Packer, Podman, Terraform, WebAssembly, WebAssembly Component Model"
                 },
                 {
                     "title": "Languages",
