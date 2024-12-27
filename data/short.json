@@ -68,7 +68,7 @@
                     "location": "Trento, Italy",
                     "date": "2021 - 2025",
                     "text": [
-                        "Current Grade: 28.82 out of 30.0",
+                        "Current Grade: 28.67 out of 30.0",
                         "Relevant Coursework: Advanced Programming, Autonomous Software Agents, Distributed Systems 1,\\\\ Introduction to Computer and Network Security, Security Testing, Web Architectures,\\\\ Service Design and Engineering"
                     ]
                 },
@@ -90,8 +90,8 @@
             "content": [
                 {
                     "title": "Computing within Limits 2022 (Conference Paper)",
-                    "date": "2023",
-                    "text": "Co-authored \\textit{\"Conceptualising Resources-aware Higher Education Digital Infrastructure through Self-hosting: a Multi-disciplinary View\"} where I researched cloud technologies with a low energy-footprint.",
+                    "date": "2022",
+                    "text": "Co-authored \\textit{\"Conceptualising Resources-aware Higher Education Digital Infrastructure through Self-hosting: a Multi-disciplinary View\"} where we built a concept of a low-energy Kubernetes cluster of old commodity hardware.",
                     "link": {
                         "text": "(computingwithinlimits.org/2022/papers/limits22-final-Angeli.pdf)",
                         "uri": "https://computingwithinlimits.org/2022/papers/limits22-final-Angeli.pdf"
@@ -101,7 +101,7 @@
                 {
                     "title": "Wishlist Inviter (Course Project)",
                     "date": "2023",
-                    "text": "Built a web application in Go and Python using the microservice architecture, that scraps Amazon wishlists.",
+                    "text": "Built a web application in Go and Python following the microservice architecture, that scraps Amazon wishlists.",
                     "link": {
                         "text": "(github.com/mstolin/wishlist-inviter)",
                         "uri": "https://github.com/mstolin/wishlist-inviter"
