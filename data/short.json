@@ -17,12 +17,12 @@
             "content": [
                 {
                     "title": "Software Engineer (Working Student and Master Thesis)",
-                    "subtitle": "ETAS GmbH",
+                    "subtitle": "ETAS GmbH, Advanced Engineering",
                     "location": "Stuttgart, Germany",
                     "date": "Apr. 2023 - Dec. 2024",
                     "text": [
                         "Master thesis (no title yet) about a POSIX IPC framework for safe automotive software using WebAssembly and Rust",
-                        "Research on Rust, WebAssembly, and the WebAssembly Component Model to provide safe automotive software",
+                        "Research on Rust, WebAssembly, and the WebAssembly Component Model for safe automotive software",
                         "Benchmark automation for automotive software on different embedded systems using perf and Python"
                     ]
                 },
@@ -30,7 +30,7 @@
                     "title": "Research Assistant",
                     "subtitle": "Fraunhofer IPA",
                     "location": "Stuttgart, Germany",
-                    "date": "Sep 2020 - Jun 2021",
+                    "date": "Sep. 2020 - Jun. 2021",
                     "text": [
                         "Bachelor thesis: \\textit{Automated Deployment of Machine Learning Applications on a Scalable Heterogeneous GPU-Accelerated Apache Spark Cluster}",
                         "Researched high performance computing clusters for machine learning"
@@ -40,7 +40,7 @@
                     "title": "Data Engineer (Internship and Working Student)",
                     "subtitle": "Robert Bosch GmbH, Bosch Center for Artificial Intelligence",
                     "location": "Renningen, Germany",
-                    "date": "May 2019 - Sep 2020",
+                    "date": "May 2019 - Sep. 2020",
                     "text": [
                         "Built an automated CI/CD pipeline to publish Big Data applications on a Microsoft Azure cloud environment",
                         "Developed ETL pipelines using Apache Kafka and Scala"
@@ -50,7 +50,7 @@
                     "title": "Data Engineer (Internship)",
                     "subtitle": "Robert Bosch LLC, Bosch Center for Artificial Intelligence",
                     "location": "Sunnyvale, CA, USA",
-                    "date": "Oct 2018 - Mar 2019",
+                    "date": "Oct. 2018 - Mar. 2019",
                     "text": [
                         "Added sanity checks to the CI/CD pipelines of Big Data applications",
                         "Increased the build-time of a Big Data platform multi-module Scala project by 30\\%"
