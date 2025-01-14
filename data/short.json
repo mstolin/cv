@@ -101,7 +101,7 @@
                 {
                     "title": "Wishlist Inviter (Course Project)",
                     "date": "2023",
-                    "text": "Built a web application in Go and Python following the microservice architecture that scraps Amazon wishlists.",
+                    "text": "Built a web application in Go and Python following the microservice architecture that scraps Amazon wishlists using Beautiful Soup.",
                     "link": {
                         "text": "(github.com/mstolin/wishlist-inviter)",
                         "uri": "https://github.com/mstolin/wishlist-inviter"
