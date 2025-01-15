@@ -121,7 +121,7 @@
                 },
                 {
                     "title": "Tools",
-                    "text": "Ansible, Docker, Git, Linux, Packer, Podman, WebAssembly, Flask, Scrapy, Beautiful Soup"
+                    "text": "Ansible, Docker, Git, Linux, Packer, Podman, WebAssembly, Flask"
                 },
                 {
                     "title": "Languages",
