@@ -1,0 +1,137 @@
+{
+    "title": "Marcel Stolin",
+    "links": [
+        {
+            "text": "linkedin.com/in/$\\sim$marcel",
+            "uri": "https://www.linkedin.com/in/~marcel"
+        },
+        {
+            "text": "github.com/mstolin",
+            "uri": "https://github.com/mstolin"
+        }
+    ],
+    "sections": [
+        {
+            "title": "Arbeitserfahrung",
+            "layout": "experience",
+            "content": [
+                {
+                    "title": "Software Engineer (Werkstudent und Master Thesis)",
+                    "subtitle": "ETAS GmbH, Advanced Engineering",
+                    "location": "Stuttgart, Deutschland",
+                    "date": "Apr. 2023 - Dez. 2024",
+                    "text": [
+                        "Master Thesis (noch kein Titel) über ein POSIX IPC Framework für sichere Automotive Software welches auf WebAssembly und Rust basiert",
+                        "Untersuchung von Rust, WebAssembly, und das WebAssembly Component Model für sichere Automotive Software",
+                        "Benchmark Automatisierung für Automotive Software auf verschiedenen CPU Architekturen mittels perf und Python"
+                    ]
+                },
+                {
+                    "title": "Research Assistant",
+                    "subtitle": "Fraunhofer IPA",
+                    "location": "Stuttgart, Deutschland",
+                    "date": "Sep. 2020 - Jun. 2021",
+                    "text": [
+                        "Bachelor Thesis: \\textit{Automated Deployment of Machine Learning Applications on a Scalable Heterogeneous GPU-Accelerated Apache Spark Cluster}",
+                        "Untersuchung von High Performance Computing Clusters für Machine Learning Modelle"
+                    ]
+                },
+                {
+                    "title": "Data Engineer (Praktikum und Werkstudent)",
+                    "subtitle": "Robert Bosch GmbH, Bosch Center for Artificial Intelligence",
+                    "location": "Renningen, Deutschland",
+                    "date": "May 2019 - Sep. 2020",
+                    "text": [
+                        "Automatische Veröffentlichung von Big Data Applikationen auf Microsoft Azure via einer CI/CD Pipeline",
+                        "Erstellung von ETL Pipelines mittels Apache Kafka und Scala"
+                    ]
+                },
+                {
+                    "title": "Data Engineer (Praktikum)",
+                    "subtitle": "Robert Bosch LLC, Bosch Center for Artificial Intelligence",
+                    "location": "Sunnyvale, CA, USA",
+                    "date": "Oct. 2018 - Mar. 2019",
+                    "text": [
+                        "Erweiterung einer CI/CD Pipeline mit Sanity Checks für Big Data Applikationen",
+                        "Build-time Beschleunigung um 30\\% für eine Scala multi-Modul Big Data Applikation"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Bildung",
+            "layout": "experience",
+            "content": [
+                {
+                    "title": "Master of Science, Computer Science",
+                    "subtitle": "University of Trento",
+                    "location": "Trento, Italien",
+                    "date": "2021 - 2025",
+                    "text": [
+                        "Aktülle Note: 28.67 von 30.0 (30.0 is die bestmögliche Note)",
+                        "Relevante Kurse: Advanced Programming, Autonomous Software Agents, Distributed Systems 1,\\\\ Introduction to Computer and Network Security, Security Testing, Web Architectures,\\\\ Service Design and Engineering"
+                    ]
+                },
+                {
+                    "title": "Bachelor of Science, Mobile Medien",
+                    "subtitle": "Hochschule der Medien",
+                    "location": "Stuttgart, Deutschland",
+                    "date": "2016 - 2021",
+                    "text": [
+                        "Abschlussnote: 2.0",
+                        "Relevante Kurse: Advanced Programming in C++, Algorithms and Data Structures, Artificial Intelligence, Database Systems 1, Functional Programming, Software Development 1+2, Web Development 1+2"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Projekte",
+            "layout": "paragraph",
+            "content": [
+                {
+                    "title": "Computing within Limits 2022",
+                    "date": "2022",
+                    "text": "Co-Autor eines wissenschaftlichen Artikels für ein Resourcen-effizientes Kubernetes Kluster von gebrauchter Hardware.",
+                    "link": {
+                        "text": "(computingwithinlimits.org/2022/papers/limits22-final-Angeli.pdf)",
+                        "uri": "https://computingwithinlimits.org/2022/papers/limits22-final-Angeli.pdf"
+                    },
+                    "layout": "paragraph"
+                },
+                {
+                    "title": "Wishlist Inviter (Kurs Projekt)",
+                    "date": "2023",
+                    "text": "Eine Web-Applikation erstellt in Go und Python mittels der Microservice Architektur, die Wunschlisten von Amazon kopiert.",
+                    "link": {
+                        "text": "(github.com/mstolin/wishlist-inviter)",
+                        "uri": "https://github.com/mstolin/wishlist-inviter"
+                    },
+                    "layout": "paragraph"
+                }
+            ]
+        },
+
+        {
+            "title": "Fähigkeiten",
+            "layout": "skill",
+            "content": [
+                {
+                    "title": "Programmiersprachen",
+                    "text": "Rust, Go, Python, Java"
+                },
+                {
+                    "title": "Tools",
+                    "text": "Ansible, Docker, Git, Linux, Packer, Podman, WebAssembly, Flask, Scrapy, Beautiful Soup"
+                },
+                {
+                    "title": "Sprachen",
+                    "text": "Deutsch (Muttersprache), Englisch (C1), Italienisch (A1b)"
+                },
+                {
+                    "title": "Zertifikate",
+                    "text": "Introduction to DevOps and Site Reliability Engineering (edX, 2021), Machine Learning Engineer Nanodegree (Udacity, 2020)"
+                }
+            ]
+        }
+    ]
+}
