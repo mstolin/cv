@@ -55,6 +55,25 @@
                         "Added sanity checks to the CI/CD pipelines of Big Data applications",
                         "Increased the build-time of a Big Data platform multi-module Scala project by 30\\%"
                     ]
+                },
+                {
+                    "title": "Software Engineer (Working Student)",
+                    "subtitle": "M-Way Solutions GmbH",
+                    "location": "Stuttgart, Germany",
+                    "date": "Nov. 2016 - Aug. 2018",
+                    "text": [
+                        "Native iOS app development using Swift and Objective-C",
+                        "Automation of iOS app testing and deployment using Jenkins"
+                    ]
+                },
+                {
+                    "title": "Mobile Developer",
+                    "subtitle": "opwoco GmbH (acquired by d.velop AG)",
+                    "location": "Coesfeld, Germany",
+                    "date": "Aug. 2012 - Jul. 2015",
+                    "text": [
+                        "Mobile app development of native and hybrid apps using Objective-C, Swift, Java, and JavaScript"
+                    ]
                 }
             ]
         },
@@ -107,28 +126,6 @@
                         "uri": "https://github.com/mstolin/wishlist-inviter"
                     },
                     "layout": "paragraph"
-                }
-            ]
-        },
-        {
-            "title": "Skills",
-            "layout": "skill",
-            "content": [
-                {
-                    "title": "Programming Languages",
-                    "text": "Rust, Go, Python, Java"
-                },
-                {
-                    "title": "Tools",
-                    "text": "Ansible, Docker, Git, Linux, Packer, Podman, WebAssembly, Flask"
-                },
-                {
-                    "title": "Languages",
-                    "text": "German (native language), English (C1), Italian (A1b)"
-                },
-                {
-                    "title": "Certificates",
-                    "text": "Introduction to DevOps and Site Reliability Engineering (edX, 2021), Machine Learning Engineer Nanodegree (Udacity, 2020)"
                 }
             ]
         }
