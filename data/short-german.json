@@ -91,7 +91,7 @@
                 {
                     "title": "Computing within Limits 2022",
                     "date": "2022",
-                    "text": "Co-Autor eines wissenschaftlichen Artikels für ein Resourcen-effizientes Kubernetes Kluster von gebrauchter Hardware.",
+                    "text": "Co-Autor eines wissenschaftlichen Artikels für ein Resourcen-effizientes Kubernetes Kluster (\\textit{reCluster}) von gebrauchter Hardware.",
                     "link": {
                         "text": "(computingwithinlimits.org/2022/papers/limits22-final-Angeli.pdf)",
                         "uri": "https://computingwithinlimits.org/2022/papers/limits22-final-Angeli.pdf"
