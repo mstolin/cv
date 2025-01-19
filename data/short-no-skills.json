@@ -110,7 +110,7 @@
                 {
                     "title": "Computing within Limits 2022 (Conference Paper)",
                     "date": "2022",
-                    "text": "Co-authored a paper where we built a concept of a low-energy Kubernetes cluster of old commodity hardware.",
+                    "text": "Co-authored a paper where we built a concept of a low-energy Kubernetes cluster (\\textit{reCluster}) of old commodity hardware.",
                     "link": {
                         "text": "(computingwithinlimits.org/2022/papers/limits22-final-Angeli.pdf)",
                         "uri": "https://computingwithinlimits.org/2022/papers/limits22-final-Angeli.pdf"
