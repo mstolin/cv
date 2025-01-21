@@ -116,11 +116,11 @@
             "content": [
                 {
                     "title": "Programming Languages",
-                    "text": "Rust, Go, Python, Java"
+                    "text": "Rust, Go, Python, Java, C/C++"
                 },
                 {
                     "title": "Tools",
-                    "text": "Ansible, Docker, Git, Linux, Packer, Podman, WebAssembly, Flask"
+                    "text": "Ansible, Docker, Git, Linux, Packer, Podman, WebAssembly"
                 },
                 {
                     "title": "Languages",
