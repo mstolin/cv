@@ -130,7 +130,7 @@
                 {
                     "title": "Wishlist Inviter (Course Project)",
                     "date": "2023",
-                    "text": "A microservice web application build in Go and Python. It uses a PostgreSQL DB to save customer wishlists, that a scraped from Amazon using BeautifulSoup4.",
+                    "text": "A microservice web application build in Go and Python. It uses a PostgreSQL DB to save customer wishlists, that are scraped from Amazon using BeautifulSoup4.",
                     "link": {
                         "text": "(github.com/mstolin/wishlist-inviter)",
                         "uri": "https://github.com/mstolin/wishlist-inviter"
@@ -140,7 +140,7 @@
                 {
                     "title": "Computing within Limits 2022 (Conference Paper)",
                     "date": "2022",
-                    "text": "Co-authored a paper where we built a concept of a low-energy Kubernetes cluster (\\textit{reCluster}) of old commodity hardware.",
+                    "text": "Co-authored a paper where we built a concept of a low-energy Kubernetes cluster (\\textit{reCluster}) of old commodity hardware. My task was to research OCI technologies for lightweight virtualization.",
                     "link": {
                         "text": "(computingwithinlimits.org/2022/papers/limits22-final-Angeli.pdf)",
                         "uri": "https://computingwithinlimits.org/2022/papers/limits22-final-Angeli.pdf"
