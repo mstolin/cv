@@ -12,7 +12,7 @@
     ],
     "sections": [
         {
-            "title": "Recent Work Experience",
+            "title": "Work Experience",
             "layout": "experience",
             "content": [
                 {
@@ -120,7 +120,7 @@
                 {
                     "title": "Auto CV",
                     "date": "2024",
-                    "text": "A project that utilizes Python, Jinja, Bash, and Github Actions to automatically generate my CV as a PDF, based on JSON data.",
+                    "text": "A project that utilizes Python, Jinja, Shell scripts, and Github Actions to automatically generate my CV as a PDF, based on JSON data.",
                     "link": {
                         "text": "(github.com/mstolin/cv)",
                         "uri": "https://github.com/mstolin/cv"
@@ -130,7 +130,7 @@
                 {
                     "title": "Wishlist Inviter (Course Project)",
                     "date": "2023",
-                    "text": "Built a web application in Go and Python following the microservice architecture that scraps Amazon wishlists using Beautiful Soup.",
+                    "text": "A microservice web application build in Go and Python. It uses a PostgreSQL DB to save customer wishlists, that a scraped from Amazon using BeautifulSoup4.",
                     "link": {
                         "text": "(github.com/mstolin/wishlist-inviter)",
                         "uri": "https://github.com/mstolin/wishlist-inviter"
