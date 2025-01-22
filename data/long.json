@@ -21,8 +21,8 @@
                     "location": "Stuttgart, Germany",
                     "date": "Apr. 2023 - Dec. 2024",
                     "text": [
-                        "Master thesis (no title yet) about a POSIX IPC framework for safe automotive software using WebAssembly and Rust",
-                        "Researched Rust and for safe automotive software within the software-defined vehicle space",
+                        "Master thesis (no title yet) about safe automotive software using Rust and WebAssembly for low-latency zero-copy POSIX IPC",
+                        "Researched Rust and WebAssembly for safe automotive software within the software-defined vehicle domain",
                         "Benchmark automation for automotive software on different embedded systems using perf and Python"
                     ]
                 },
@@ -43,7 +43,7 @@
                     "date": "May 2019 - Sep. 2020",
                     "text": [
                         "Built an automated CI/CD pipeline to publish Big Data applications on a Microsoft Azure cloud environment",
-                        "Developed ETL pipelines using Apache Kafka and Scala"
+                        "Developed ETL pipelines using Apache Kafka and Scala to scale an income of massive data from plants"
                     ]
                 },
                 {
@@ -54,6 +54,25 @@
                     "text": [
                         "Added sanity checks to the CI/CD pipelines of Big Data applications",
                         "Increased the build-time of a Big Data platform multi-module Scala project by 30\\%"
+                    ]
+                },
+                {
+                    "title": "Software Engineer (Working Student)",
+                    "subtitle": "M-Way Solutions GmbH",
+                    "location": "Stuttgart, Germany",
+                    "date": "Nov. 2016 - Aug. 2018",
+                    "text": [
+                        "Created native iOS apps using Swift and Objective-C",
+                        "Automated iOS app testing and deployment using Jenkins and Gitlab CI/CD"
+                    ]
+                },
+                {
+                    "title": "Mobile Developer (Apprenticeship)",
+                    "subtitle": "opwoco GmbH (acquired by d.velop AG)",
+                    "location": "Coesfeld, Germany",
+                    "date": "Aug. 2012 - Jul. 2015",
+                    "text": [
+                        "Created native and hybrid mobile apps for iOS and Android using Objective-C, Swift, Java, and JavaScript"
                     ]
                 }
             ]
@@ -89,6 +108,16 @@
             "layout": "paragraph",
             "content": [
                 {
+                    "title": "WildcardHttp",
+                    "date": "2024",
+                    "text": "Created a simple HTTP server for debugging puposes using Golang. Further, the project was automated using GitHub actions to build an artifact and publish a Docker image to Docker Hub.",
+                    "link": {
+                        "text": "(github.com/mstolin/wildcardHttp)",
+                        "uri": "https://github.com/mstolin/wildcardHttp"
+                    },
+                    "layout": "paragraph"
+                },
+                {
                     "title": "Computing within Limits 2022 (Conference Paper)",
                     "date": "2022",
                     "text": "Co-authored a paper where we built a concept of a low-energy Kubernetes cluster (\\textit{reCluster}) of old commodity hardware.",
@@ -116,11 +145,11 @@
             "content": [
                 {
                     "title": "Programming Languages",
-                    "text": "Rust, Go, Python, Java, C/C++"
+                    "text": "Rust, Golang, Python, Java, C/C++"
                 },
                 {
                     "title": "Tools",
-                    "text": "Ansible, Docker, Git, Linux, Packer, Podman, WebAssembly"
+                    "text": "Ansible, Docker, Git, Linux, Make, Packer, Podman, WebAssembly"
                 },
                 {
                     "title": "Languages",
