@@ -88,7 +88,7 @@
                     "date": "2021 - 2025",
                     "text": [
                         "Current Grade: 28.67 out of 30.0",
-                        "Relevant Coursework: Advanced Programming, Autonomous Software Agents, Distributed Systems 1,\\\\ Introduction to Computer and Network Security, Security Testing, Web Architectures,\\\\ Service Design and Engineering"
+                        "Relevant Coursework: Advanced Programming, Autonomous Software Agents, Distributed Systems 1,\\\\ Introduction to Computer and Network Security, Security Testing, Web Architectures,\\\\ Service Design and Engineering, Blockchain"
                     ]
                 },
                 {
@@ -110,7 +110,7 @@
                 {
                     "title": "WildcardHttp",
                     "date": "2025",
-                    "text": "Created a simple HTTP server for debugging puposes using Golang. Further, the project was automated using GitHub Actions to build an release artifact and publish a Docker image to Docker Hub.",
+                    "text": "Created a simple HTTP server to debug HTTP requests using Golang. Further, the project was automated using GitHub Actions to build an release artifact and publish a Docker image to Docker Hub.",
                     "link": {
                         "text": "(github.com/mstolin/wildcardHttp)",
                         "uri": "https://github.com/mstolin/wildcardHttp"
@@ -140,7 +140,7 @@
                 {
                     "title": "Computing within Limits 2022 (Conference Paper)",
                     "date": "2022",
-                    "text": "Co-authored a paper where we built a concept of a low-energy Kubernetes cluster (\\textit{reCluster}) of old commodity hardware. My task was to research OCI technologies for lightweight virtualization.",
+                    "text": "Coauthored a paper where we built a concept of a low-energy Kubernetes cluster (\\textit{reCluster}) of old commodity hardware. My task was to research OCI technologies for lightweight virtualization.",
                     "link": {
                         "text": "(computingwithinlimits.org/2022/papers/limits22-final-Angeli.pdf)",
                         "uri": "https://computingwithinlimits.org/2022/papers/limits22-final-Angeli.pdf"
