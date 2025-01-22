@@ -109,11 +109,21 @@
             "content": [
                 {
                     "title": "WildcardHttp",
-                    "date": "2024",
-                    "text": "Created a simple HTTP server for debugging puposes using Golang. Further, the project was automated using GitHub actions to build an artifact and publish a Docker image to Docker Hub.",
+                    "date": "2025",
+                    "text": "Created a simple HTTP server for debugging puposes using Golang. Further, the project was automated using GitHub Actions to build an release artifact and publish a Docker image to Docker Hub.",
                     "link": {
                         "text": "(github.com/mstolin/wildcardHttp)",
                         "uri": "https://github.com/mstolin/wildcardHttp"
+                    },
+                    "layout": "paragraph"
+                },
+                {
+                    "title": "Auto CV",
+                    "date": "2024",
+                    "text": "A project that utilizes Python, Jinja, Bash, and Github Actions to automatically generate my CV as a PDF, based on JSON data.",
+                    "link": {
+                        "text": "(github.com/mstolin/cv)",
+                        "uri": "https://github.com/mstolin/cv"
                     },
                     "layout": "paragraph"
                 },
