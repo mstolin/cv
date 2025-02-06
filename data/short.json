@@ -21,7 +21,7 @@
                     "location": "Stuttgart, Germany",
                     "date": "Apr. 2023 - Dec. 2024",
                     "text": [
-                        "Master thesis (no title yet) about a POSIX IPC framework for safe automotive software using WebAssembly and Rust",
+                        "Master thesis: \\textit{Paving the way for Safe and Portable Software Components for the Software-Defined Vehicle using Rust and WebAssembly}",
                         "Researched Rust and for safe automotive software within the software-defined vehicle space",
                         "Benchmark automation for automotive software on different embedded systems using perf and Python"
                     ]
@@ -42,7 +42,7 @@
                     "location": "Renningen, Germany",
                     "date": "May 2019 - Sep. 2020",
                     "text": [
-                        "Built an automated CI/CD pipeline to publish Big Data applications on a Microsoft Azure cloud environment",
+                        "Built an automated CI/CD pipelines on GitLab, to publish Big Data applications on a Microsoft Azure cloud environment",
                         "Developed ETL pipelines using Apache Kafka and Scala"
                     ]
                 },
@@ -69,7 +69,7 @@
                     "date": "2021 - 2025",
                     "text": [
                         "Current Grade: 28.67 out of 30.0",
-                        "Relevant Coursework: Advanced Programming, Autonomous Software Agents, Distributed Systems 1,\\\\ Introduction to Computer and Network Security, Security Testing, Web Architectures,\\\\ Service Design and Engineering"
+                        "Relevant Coursework: Advanced Programming, Autonomous Software Agents, Distributed Systems 1,\\\\ Introduction to Computer and Network Security, Security Testing, Web Architectures,\\\\ Blockchain, Service Design and Engineering"
                     ]
                 },
                 {
@@ -120,7 +120,7 @@
                 },
                 {
                     "title": "Tools",
-                    "text": "Ansible, Docker, Git, Linux, Packer, Podman, WebAssembly"
+                    "text": "Ansible, Docker, Git (GitHub + GitLab), Linux, Packer, Podman, WebAssembly"
                 },
                 {
                     "title": "Languages",
