@@ -22,7 +22,7 @@
                     "date": "Apr. 2023 - Dec. 2024",
                     "text": [
                         "Master thesis: \\textit{Paving the way for Safe and Portable Software Components for the Software-Defined Vehicle using Rust and WebAssembly}",
-                        "Researched Rust and for safe automotive software within the software-defined vehicle space",
+                        "Researched zero-copy IPC for WebAssembly within the software-defined vehicle space",
                         "Benchmark automation for automotive software on different embedded systems using perf and Python"
                     ]
                 },
