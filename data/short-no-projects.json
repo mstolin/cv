@@ -1,0 +1,129 @@
+{
+    "title": "Marcel Stolin",
+    "links": [
+        {
+            "text": "linkedin.com/in/$\\sim$marcel",
+            "uri": "https://www.linkedin.com/in/~marcel"
+        },
+        {
+            "text": "github.com/mstolin",
+            "uri": "https://github.com/mstolin"
+        }
+    ],
+    "sections": [
+        {
+            "title": "Recent Work Experience",
+            "layout": "experience",
+            "content": [
+                {
+                    "title": "Software Engineer (Working Student and Master Thesis)",
+                    "subtitle": "ETAS GmbH, Advanced Engineering",
+                    "location": "Stuttgart, Germany",
+                    "date": "Apr. 2023 - Dec. 2024",
+                    "text": [
+                        "Master thesis: \\textit{Towards Safe and Portable Software Components for the Software-Defined Vehicle using Rust and WebAssembly}",
+                        "Researched zero-copy IPC for WebAssembly within the software-defined vehicle space",
+                        "Benchmark automation for automotive software on different embedded systems using perf and Python"
+                    ]
+                },
+                {
+                    "title": "Research Assistant",
+                    "subtitle": "Fraunhofer IPA",
+                    "location": "Stuttgart, Germany",
+                    "date": "Sep. 2020 - Jun. 2021",
+                    "text": [
+                        "Bachelor thesis: \\textit{Automated Deployment of Machine Learning Applications on a Scalable Heterogeneous GPU-Accelerated Apache Spark Cluster}",
+                        "Researched high performance computing clusters for machine learning"
+                    ]
+                },
+                {
+                    "title": "Data Engineer (Internship and Working Student)",
+                    "subtitle": "Robert Bosch GmbH, Bosch Center for Artificial Intelligence",
+                    "location": "Renningen, Germany",
+                    "date": "May 2019 - Sep. 2020",
+                    "text": [
+                        "Built an automated CI/CD pipeline to publish Big Data applications on a Microsoft Azure cloud environment using Packer, Terrafor, and Ansible",
+                        "Developed ETL pipelines using Apache Kafka and Scala"
+                    ]
+                },
+                {
+                    "title": "Data Engineer (Internship)",
+                    "subtitle": "Robert Bosch LLC, Bosch Center for Artificial Intelligence",
+                    "location": "Sunnyvale, CA, USA",
+                    "date": "Oct. 2018 - Mar. 2019",
+                    "text": [
+                        "Added sanity checks to the CI/CD pipelines of Big Data applications",
+                        "Increased the build-time of a Big Data platform multi-module Scala project by 30\\%"
+                    ]
+                },
+                {
+                    "title": "Software Engineer (Working Student)",
+                    "subtitle": "M-Way Solutions GmbH",
+                    "location": "Stuttgart, Germany",
+                    "date": "Nov. 2016 - Aug. 2018",
+                    "text": [
+                        "Native iOS app development using Swift and Objective-C",
+                        "Automation of iOS app testing and deployment using Jenkins"
+                    ]
+                },
+                {
+                    "title": "Mobile Developer",
+                    "subtitle": "opwoco GmbH (acquired by d.velop AG)",
+                    "location": "Coesfeld, Germany",
+                    "date": "Aug. 2012 - Jul. 2015",
+                    "text": [
+                        "Mobile app development of native and hybrid apps for iOS and Android using Objective-C, Swift, Java, and JavaScript"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Education",
+            "layout": "experience",
+            "content": [
+                {
+                    "title": "Master of Science, Computer Science",
+                    "subtitle": "University of Trento",
+                    "location": "Trento, Italy",
+                    "date": "2021 - 2025",
+                    "text": [
+                        "Current Grade: 28.67 out of 30.0",
+                        "Relevant Coursework: Advanced Programming, Autonomous Software Agents, Distributed Systems 1,\\\\ Introduction to Computer and Network Security, Security Testing, Web Architectures,\\\\ Blockchain, Service Design and Engineering"
+                    ]
+                },
+                {
+                    "title": "Bachelor of Science, Mobile Media",
+                    "subtitle": "Stuttgart Media University",
+                    "location": "Stuttgart, Germany",
+                    "date": "2016 - 2021",
+                    "text": [
+                        "Final Grade: 2.0 out of 6.0 (best possible grade: 1.0)",
+                        "Relevant Coursework: Advanced Programming in C++, Algorithms and Data Structures, Artificial Intelligence, Database Systems 1, Functional Programming, Software Development 1+2, Web Development 1+2"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Skills",
+            "layout": "skill",
+            "content": [
+                {
+                    "title": "Programming Languages",
+                    "text": "Rust, Go, Python, Java, C/C++"
+                },
+                {
+                    "title": "Tools",
+                    "text": "Ansible, Docker, Git (GitHub + GitLab), Linux, Packer, Podman, WebAssembly"
+                },
+                {
+                    "title": "Languages",
+                    "text": "German (native language), English (C1), Italian (A1b)"
+                },
+                {
+                    "title": "Certificates",
+                    "text": "Introduction to DevOps and Site Reliability Engineering (edX, 2021), Machine Learning Engineer Nanodegree (Udacity, 2020)"
+                }
+            ]
+        }
+    ]
+}
