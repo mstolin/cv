@@ -33,7 +33,7 @@ jobs:
       - name: Create .tex file(s)
         run: ./gen_tex.sh
       - name: Build PDF(s)
-        run: ./build_pdf.sh
+        run: ./build_pdf.sh . _site
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3
   deploy:
