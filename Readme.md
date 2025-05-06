@@ -37,3 +37,30 @@ An example is available at [marcel.to/cv/short.pdf](https://marcel.to/cv/short.p
     ```sh
     latexmk -interaction=nonstopmode -file-line-error -pdf -halt-on-error -shell-escape -outdir=. short.tex
     ```
+
+## Build locally (using a container)
+
+1. Build the image.
+
+    ```sh
+    docker build --tag "localhost/latex-full:latest" .
+    ```
+
+2. Build the `.tex` file (see previous section).
+
+    ```sh
+    python gen_cv.py data/short.json templates/jakes_resume.tex.jinja2 short.tex
+    ```
+
+3. Build the `.pdf` file (`SOURCE` is the local folder where `short.tex` is located).
+
+    ```sh
+    # docker
+    docker run --rm -v SOURCE:TARGET localhost/latex-full:latest buildpdf SOURCE DEST
+
+    # podman
+    podman run --rm --user=ubuntu \
+    --userns=keep-id:uid=1000,gid=1000 \
+    -v "$(pwd)"/SOURCE/:/mnt/cv:z localhost/latex-full:latest \
+    buildpdf /mnt/cv /mnt/cv
+    ```
