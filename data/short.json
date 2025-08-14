@@ -22,7 +22,7 @@
                     "date": "Apr. 2023 - Dec. 2024",
                     "text": [
                         "Master thesis: \\textit{Paving the way for Safe and Portable Software Components for the Software-Defined Vehicle using Rust and WebAssembly}",
-                        "Researched zero-copy IPC for WebAssembly within the software-defined vehicle space",
+                        "Deployment automation of native applications on low-performance devices using Ansible",
                         "Benchmark automation for automotive software on different embedded systems using perf and Python"
                     ]
                 },
@@ -33,7 +33,7 @@
                     "date": "Sep. 2020 - Jun. 2021",
                     "text": [
                         "Bachelor thesis: \\textit{Automated Deployment of Machine Learning Applications on a Scalable Heterogeneous GPU-Accelerated Apache Spark Cluster}",
-                        "Researched high performance computing clusters for machine learning"
+                        "Researched Kubernetes and Docker for HPC clusters to train AI models"
                     ]
                 },
                 {
@@ -66,7 +66,7 @@
                     "title": "Master of Science, Computer Science",
                     "subtitle": "University of Trento",
                     "location": "Trento, Italy",
-                    "date": "2021 - 2025",
+                    "date": "2021 - 2026",
                     "text": [
                         "Current Grade: 28.67 out of 30.0",
                         "Relevant Coursework: Advanced Programming, Autonomous Software Agents, Distributed Systems 1,\\\\ Introduction to Computer and Network Security, Security Testing, Web Architectures,\\\\ Blockchain, Service Design and Engineering"
@@ -116,11 +116,11 @@
             "content": [
                 {
                     "title": "Programming Languages",
-                    "text": "Rust, Go, Python, Java, C/C++"
+                    "text": "Rust, Go, Python, Java, C"
                 },
                 {
                     "title": "Tools",
-                    "text": "Ansible, Docker, Git (GitHub + GitLab), Linux, Packer, Podman, WebAssembly"
+                    "text": "Ansible, Containerization, Git, Linux, Make, Packer, Podman, Terraform, WebAssembly"
                 },
                 {
                     "title": "Languages",
