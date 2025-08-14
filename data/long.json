@@ -22,7 +22,7 @@
                     "date": "Apr. 2023 - Dec. 2024",
                     "text": [
                         "Master thesis: \\textit{Paving the way for Safe and Portable Software Components for the Software-Defined Vehicle using Rust and WebAssembly}",
-                        "Researched zero-copy IPC for WebAssembly within the software-defined vehicle space",
+                        "Deployment automation of native applications on low-performance devices using Ansible",
                         "Benchmark automation for automotive software on different embedded systems using perf and Python"
                     ]
                 },
@@ -33,7 +33,7 @@
                     "date": "Sep. 2020 - Jun. 2021",
                     "text": [
                         "Bachelor thesis: \\textit{Automated Deployment of Machine Learning Applications on a Scalable Heterogeneous GPU-Accelerated Apache Spark Cluster}",
-                        "Researched high performance computing clusters for machine learning"
+                        "Researched Kubernetes and Docker for HPC clusters to train AI models"
                     ]
                 },
                 {
@@ -42,7 +42,7 @@
                     "location": "Renningen, Germany",
                     "date": "May 2019 - Sep. 2020",
                     "text": [
-                        "Built an automated CI/CD pipeline to publish Big Data applications on a Microsoft Azure cloud environment",
+                        "Built an automated CI/CD pipeline to publish Big Data applications on a Microsoft Azure cloud environment using Terraform, Packer, and Ansible",
                         "Developed ETL pipelines using Apache Kafka and Scala to scale an income of massive data from plants"
                     ]
                 },
@@ -155,11 +155,11 @@
             "content": [
                 {
                     "title": "Programming Languages",
-                    "text": "Rust, Golang, Python, Java, C/C++"
+                    "text": "Rust, Golang, Python, Shell Scripting, Java, C"
                 },
                 {
                     "title": "Tools",
-                    "text": "Ansible, Docker, Git, Linux, Make, Packer, Podman, WebAssembly"
+                    "text": "Ansible, Containerization, Git, Linux, Make, Packer, Podman, Terraform, WebAssembly"
                 },
                 {
                     "title": "Languages",
