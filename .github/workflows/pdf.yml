@@ -16,6 +16,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Update and upgrade packages
+        run: |
+          sudo apt update && sudo apt upgrade -y
       - name: Install packages
         run: |
           sudo apt install -y \
