@@ -116,11 +116,11 @@
             "content": [
                 {
                     "title": "Programming Languages",
-                    "text": "Rust, Go, Python, Java, C"
+                    "text": "Rust, Go, Python, C, Shell Scripting, Java"
                 },
                 {
                     "title": "Tools",
-                    "text": "Ansible, Containerization, Git, Linux, Make, Packer, Podman, Terraform, WebAssembly"
+                    "text": "Ansible, Git, Linux, Linux Containers (Docker + Podman), Kubernetes, Make, Packer, Terraform, WebAssembly"
                 },
                 {
                     "title": "Languages",
