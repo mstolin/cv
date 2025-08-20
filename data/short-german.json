@@ -21,8 +21,8 @@
                     "location": "Stuttgart, Deutschland",
                     "date": "Apr. 2023 - Dez. 2024",
                     "text": [
-                        "Master Thesis (noch kein Titel) über ein POSIX IPC Framework für sichere Automotive Software welches auf WebAssembly und Rust basiert",
-                        "Untersuchung von Rust, WebAssembly, und das WebAssembly Component Model für sichere Automotive Software",
+                        "Master Thesis: \\textit{Paving the way for Safe and Portable Software Components for the Software-Defined Vehicle using Rust and WebAssembly}",
+                        "Deployment Automatisierung von Linux und Applikationen auf eingebetteten Systemen mit Ansible",
                         "Benchmark Automatisierung für Automotive Software auf verschiedenen CPU Architekturen mittels perf und Python"
                     ]
                 },
@@ -33,7 +33,7 @@
                     "date": "Sep. 2020 - Jun. 2021",
                     "text": [
                         "Bachelor Thesis: \\textit{Automated Deployment of Machine Learning Applications on a Scalable Heterogeneous GPU-Accelerated Apache Spark Cluster}",
-                        "Untersuchung von High Performance Computing Clusters für Machine Learning Modelle"
+                        "High Performance Computing Cluster für Machine Learning Modelle mit Kubernetes und Docker"
                     ]
                 },
                 {
@@ -42,7 +42,7 @@
                     "location": "Renningen, Deutschland",
                     "date": "Mai 2019 - Sep. 2020",
                     "text": [
-                        "Automatische Veröffentlichung von Big Data Applikationen auf Microsoft Azure via einer CI/CD Pipeline",
+                        "Automatische Veröffentlichung von Big Data Applikationen auf Microsoft Azure via CI/CD, Terraform, Packer",
                         "Erstellung von ETL Pipelines mittels Apache Kafka und Scala"
                     ]
                 },
@@ -52,8 +52,8 @@
                     "location": "Sunnyvale, CA, USA",
                     "date": "Okt. 2018 - Mär. 2019",
                     "text": [
-                        "Erweiterung einer CI/CD Pipeline mit Sanity Checks für Big Data Applikationen",
-                        "Build-time Beschleunigung um 30\\% für eine Scala multi-Modul Big Data Applikation"
+                        "Sicherheitsanalyse von Big Data Applikationen",
+                        "Build-time Beschleunigung um 30\\% für eine Scala multi-Package Applikation"
                     ]
                 }
             ]
@@ -91,7 +91,7 @@
                 {
                     "title": "Computing within Limits 2022",
                     "date": "2022",
-                    "text": "Co-Autor eines wissenschaftlichen Artikels für ein Resourcen-effizientes Kubernetes Kluster (\\textit{reCluster}) von gebrauchter Hardware.",
+                    "text": "Co-Autor eines wissenschaftlichen Artikels für ein Resourcen-effizientes Kubernetes Cluster (\\textit{reCluster}).",
                     "link": {
                         "text": "(computingwithinlimits.org/2022/papers/limits22-final-Angeli.pdf)",
                         "uri": "https://computingwithinlimits.org/2022/papers/limits22-final-Angeli.pdf"
@@ -117,11 +117,11 @@
             "content": [
                 {
                     "title": "Programmiersprachen",
-                    "text": "Rust, Go, Python, Java"
+                    "text": "Rust, Go, Python, C, Java, Shell-Script"
                 },
                 {
                     "title": "Tools",
-                    "text": "Ansible, Docker, Git, Linux, Packer, Podman, WebAssembly, Flask, Scrapy, Beautiful Soup"
+                    "text": "Ansible, Git, Linux, Linux Container (Docker + Podman), Packer, Terraform, WebAssembly"
                 },
                 {
                     "title": "Sprachen",
