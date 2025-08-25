@@ -1,0 +1,176 @@
+{
+    "title": "Lebenslauf - Marcel Stolin",
+    "links": [
+        {
+            "text": "linkedin.com/in/$\\sim$marcel",
+            "uri": "https://www.linkedin.com/in/~marcel"
+        },
+        {
+            "text": "github.com/mstolin",
+            "uri": "https://github.com/mstolin"
+        }
+    ],
+    "sections": [
+        {
+            "title": "Arbeitserfahrung",
+            "layout": "experience",
+            "content": [
+                {
+                    "title": "Software Engineer (Werkstudent & Master Thesis)",
+                    "subtitle": "ETAS GmbH, Advanced Engineering",
+                    "location": "Stuttgart, Germany",
+                    "date": "Apr. 2023 - Dez. 2024",
+                    "text": [
+                        "Master Thesis: \\textit{Paving the way for Safe and Portable Software Components for the Software-Defined Vehicle using Rust and WebAssembly}",
+                        "Deployment Automatisierung von Linux und Applikationen auf eingebetteten Systemen mit Ansible",
+                        "Benchmark Automatisierung für Automotive Software auf verschiedenen CPU Architekturen mittels perf und Python"
+                    ]
+                },
+                {
+                    "title": "Wissenschaftlicher Mitarbeiter",
+                    "subtitle": "Fraunhofer IPA",
+                    "location": "Stuttgart, Germany",
+                    "date": "Sep. 2020 - Jun. 2021",
+                    "text": [
+                        "Bachelor Thesis: \\textit{Automated Deployment of Machine Learning Applications on a Scalable Heterogeneous GPU-Accelerated Apache Spark Cluster}",
+                        "High Performance Computing Cluster für Machine Learning Modelle mit Kubernetes und Docker"
+                    ]
+                },
+                {
+                    "title": "Data Engineer (Praktikum & Werkstudent)",
+                    "subtitle": "Robert Bosch GmbH, Bosch Center for Artificial Intelligence",
+                    "location": "Renningen, Germany",
+                    "date": "Mai 2019 - Sep. 2020",
+                    "text": [
+                        "Automatische Veröffentlichung von ETL-Pipelines auf MS Azure VMs via CI/CD, Terraform, Packer, Ansible",
+                        "Erstellung von ETL Pipelines mittels Apache Kafka und Scala"
+                    ]
+                },
+                {
+                    "title": "Data Engineer (Praktikum)",
+                    "subtitle": "Robert Bosch LLC, Bosch Center for Artificial Intelligence",
+                    "location": "Sunnyvale, CA, USA",
+                    "date": "Okt. 2018 - Mar. 2019",
+                    "text": [
+                        "Implementierung von Apache Kafka ETL-Pielines mit Scala",
+                        "Sicherheitsanalyse (Sanity Checks & Unit Tests) von ETL-Pipeline Software Modulen"
+                    ]
+                },
+                {
+                    "title": "Software Engineer (Werkstudent)",
+                    "subtitle": "MWAY DIGITAL GmbH",
+                    "location": "Stuttgart, Deutschland",
+                    "date": "Nov. 2016 - Aug. 2018",
+                    "text": [
+                        "Implementierung von nativen iOS Apps mit Swift und Objective-C",
+                        "Automatisierung der Unit und UI Tests für iOS über Gitlab CI/CD",
+                        "Deployment Automatisierung von iOS Apps auf dem AppStore mit Jenkins"
+                    ]
+                },
+                {
+                    "title": "Mobile Developer (Ausbildung Fachinformatiker Anwendungsentwicklung)",
+                    "subtitle": "opwoco GmbH (übernommen von d.velop AG)",
+                    "location": "Coesfeld, Deutschland",
+                    "date": "Aug. 2012 - Jul. 2015",
+                    "text": [
+                        "Implementierung von nativen und hybriden Apps für iOS und Android mittels Objective-C, Swift, Java, Kotlin und JavaScript"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Bildung",
+            "layout": "experience",
+            "content": [
+                {
+                    "title": "Master of Science, Computer Science",
+                    "subtitle": "Universität Trento (Università di Trento)",
+                    "location": "Trento, Italien",
+                    "date": "2021 - Heute (pausiert)",
+                    "text": [
+                        "Aktuelle Note: 28.67 (30.0 ist die bestmögliche Note)",
+                        "Relevante Kurse: Advanced Programming, Autonomous Software Agents, Distributed Systems 1,\\\\ Introduction to Computer and Network Security, Security Testing, Web Architectures,\\\\ Service Design and Engineering"
+                    ]
+                },
+                {
+                    "title": "Bachelor of Science, Mobile Medien",
+                    "subtitle": "Hochschule der Medien",
+                    "location": "Stuttgart, Deutschland",
+                    "date": "2016 - 2021",
+                    "text": [
+                        "Abschlussnote: 2.0",
+                        "Relevante Kurse: Advanced Programming in C++, Algorithmen und Datenstrukturen, Künstliche Intelligenz, Database Systems 1, Functional Programming, Software Development 1+2, Web Development 1+2"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Projekte",
+            "layout": "paragraph",
+            "content": [
+                {
+                    "title": "WildcardHttp",
+                    "date": "2025",
+                    "text": "Ein HTTP Debug-Tool erstellt mit Golang. Zudem automatisiert eine GitHub Actions CI/CD Pipeline das Erstellen des Docker Image und veröffentlicht das Image auf Docker Hub.",
+                    "link": {
+                        "text": "(github.com/mstolin/wildcardHttp)",
+                        "uri": "https://github.com/mstolin/wildcardHttp"
+                    },
+                    "layout": "paragraph"
+                },
+                {
+                    "title": "Auto CV",
+                    "date": "2024",
+                    "text": "Dieses Projekt generiert automatisch ein Lebenslauf als PDF, mittels GitHub Actions CI/CD, basierend auf JSON Datenstrukturen. Zur Implementierung wurde Python, Jinja, und Shell Script verwendent. ",
+                    "link": {
+                        "text": "(github.com/mstolin/cv)",
+                        "uri": "https://github.com/mstolin/cv"
+                    },
+                    "layout": "paragraph"
+                },
+                {
+                    "title": "Wishlist Inviter (Kurs Projekt)",
+                    "date": "2023",
+                    "text": "Erstellung einer Web-Applikation in Go und Python mittels der Microservice Architektur die Wunschlisten von Amazon kopiert.",
+                    "link": {
+                        "text": "(github.com/mstolin/wishlist-inviter)",
+                        "uri": "https://github.com/mstolin/wishlist-inviter"
+                    },
+                    "layout": "paragraph"
+                },
+                {
+                    "title": "Computing within Limits 2022 (Wissenschaftlicher Artikel)",
+                    "date": "2022",
+                    "text": "Co-Autor eines wissenschaftlichen Artikels für ein Resourcen-effizientes Kubernetes Cluster (\\textit{reCluster}).",
+                    "link": {
+                        "text": "(computingwithinlimits.org/2022/papers/limits22-final-Angeli.pdf)",
+                        "uri": "https://computingwithinlimits.org/2022/papers/limits22-final-Angeli.pdf"
+                    },
+                    "layout": "paragraph"
+                }
+            ]
+        },
+        {
+            "title": "Fähigkeiten",
+            "layout": "skill",
+            "content": [
+                {
+                    "title": "Programmiersprachen",
+                    "text": "Rust, Golang, Python, Shell Scripting, Java, C"
+                },
+                {
+                    "title": "Tools",
+                    "text": "Ansible, Containerization, Git, Linux, Make, Packer, Podman, Terraform, WebAssembly"
+                },
+                {
+                    "title": "Sprachen",
+                    "text": "Deutsch (Muttersprache), Englisch (C1), Italienisch (A1b)"
+                },
+                {
+                    "title": "Zertifikate",
+                    "text": "Introduction to DevOps and Site Reliability Engineering (edX, 2021), Machine Learning Engineer Nanodegree (Udacity, 2020)"
+                }
+            ]
+        }
+    ]
+}
