@@ -5,6 +5,6 @@ OUTPUT_DIR="${2:-.}"
 
 # Build all PDF files
 find "${INPUT_DIR}" -type f -name "*.tex" | while read file; do
-    echo "Build PDF for $file"
+    echo "Build .pdf { input: ${file}, outdir: ${OUTPUT_DIR} }"
     latexmk -interaction=nonstopmode -file-line-error -pdf -halt-on-error -shell-escape -outdir="${OUTPUT_DIR}" ${file}
 done
