@@ -19,11 +19,24 @@ jobs:
       - name: Update and upgrade packages
         run: |
           sudo apt update && sudo apt upgrade -y
+      - uses: TeX-Live/setup-texlive-action@v3
+        with:
+          packages: |
+            scheme-basic
+            latexsym
+            titlesec
+            marvosym
+            color
+            verbatim
+            enumitem
+            hyperref
+            fancyhdr
+            babel
+            tabularx
+            fullpage
       - name: Install packages
         run: |
-          sudo apt install -y \
-            latexmk \
-            texlive-full
+          sudo apt install -y latexmk
       - name: Checkout repository
         uses: actions/checkout@v4
       - uses: actions/setup-python@v5
