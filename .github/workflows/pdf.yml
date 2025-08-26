@@ -45,12 +45,12 @@ jobs:
       - name: Install python dependencies
         run: pip install -r requirements.txt
       - name: Create build directory
-        run: mkdir build
+        run: mkdir build/
       - name: Create _site directory
-        run: mkdir _site
-      - name: Create .tex file(s)
-        run: ./gen_tex.sh data/ build/
-      - name: Build PDF(s)
+        run: mkdir _site/
+      - name: Build .tex files
+        run: ./build_tex.sh data/ build/
+      - name: Build PDF files
         run: ./build_pdf.sh build/ build/
       - name: Move all PDFs to _site
         run: mv build/*.pdf _site/
