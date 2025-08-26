@@ -31,12 +31,16 @@ jobs:
           python-version: "3.9"
       - name: Install python dependencies
         run: pip install -r requirements.txt
+      - name: Create pdf directory
+        run: mkdir pdf
       - name: Create _site directory
         run: mkdir _site
       - name: Create .tex file(s)
         run: ./gen_tex.sh
       - name: Build PDF(s)
-        run: ./build_pdf.sh . _site
+        run: ./build_pdf.sh .
+      - name: Move all PDFs to _site
+        run: mv pdf/*.pdf _site/
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3
   deploy:
