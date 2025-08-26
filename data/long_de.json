@@ -16,13 +16,14 @@
             "layout": "experience",
             "content": [
                 {
-                    "title": "Software Engineer (Werkstudent & Master Thesis)",
+                    "title": "Software Engineer (Werkstudent \\& Master Thesis)",
                     "subtitle": "ETAS GmbH, Advanced Engineering",
                     "location": "Stuttgart, Germany",
                     "date": "Apr. 2023 - Dez. 2024",
                     "text": [
                         "Master Thesis: \\textit{Paving the way for Safe and Portable Software Components for the Software-Defined Vehicle using Rust and WebAssembly}",
-                        "Deployment Automatisierung von Linux und Applikationen auf eingebetteten Systemen mit Ansible",
+                        "Programmierung Microservices für Automotive Systems mittels Rust und WebAssembly,",
+                        "Deployment Automatisierung von Linux und Microservices auf eingebetteten Systemen mit Ansible",
                         "Benchmark Automatisierung für Automotive Software auf verschiedenen CPU Architekturen mittels perf und Python"
                     ]
                 },
@@ -37,7 +38,7 @@
                     ]
                 },
                 {
-                    "title": "Data Engineer (Praktikum & Werkstudent)",
+                    "title": "Data Engineer (Praktikum \\& Werkstudent)",
                     "subtitle": "Robert Bosch GmbH, Bosch Center for Artificial Intelligence",
                     "location": "Renningen, Germany",
                     "date": "Mai 2019 - Sep. 2020",
@@ -53,7 +54,7 @@
                     "date": "Okt. 2018 - Mar. 2019",
                     "text": [
                         "Implementierung von Apache Kafka ETL-Pielines mit Scala",
-                        "Sicherheitsanalyse (Sanity Checks & Unit Tests) von ETL-Pipeline Software Modulen"
+                        "Sicherheitsanalyse (Sanity Checks \\& Unit Tests) von ETL-Pipeline Software Modulen"
                     ]
                 },
                 {
@@ -68,11 +69,12 @@
                     ]
                 },
                 {
-                    "title": "Mobile Developer (Ausbildung Fachinformatiker Anwendungsentwicklung)",
+                    "title": "Mobile Developer",
                     "subtitle": "opwoco GmbH (übernommen von d.velop AG)",
                     "location": "Coesfeld, Deutschland",
                     "date": "Aug. 2012 - Jul. 2015",
                     "text": [
+                        "Ausbildung als Fachinformatiker für Anwendungsentwicklung",
                         "Implementierung von nativen und hybriden Apps für iOS und Android mittels Objective-C, Swift, Java, Kotlin und JavaScript"
                     ]
                 }
@@ -89,6 +91,7 @@
                     "date": "2021 - Heute (pausiert)",
                     "text": [
                         "Aktuelle Note: 28.67 (30.0 ist die bestmögliche Note)",
+                        "Vertiefung: Software and Service Architecture",
                         "Relevante Kurse: Advanced Programming, Autonomous Software Agents, Distributed Systems 1,\\\\ Introduction to Computer and Network Security, Security Testing, Web Architectures,\\\\ Service Design and Engineering"
                     ]
                 },
@@ -111,9 +114,9 @@
                 {
                     "title": "WildcardHttp",
                     "date": "2025",
-                    "text": "Ein HTTP Debug-Tool erstellt mit Golang. Zudem automatisiert eine GitHub Actions CI/CD Pipeline das Erstellen des Docker Image und veröffentlicht das Image auf Docker Hub.",
+                    "text": "Ein HTTP Debug-Tool erstellt mit Golang. Zudem automatisiert eine GitHub Actions CI/CD Pipeline das Erstellen des Docker Image und veröffentlicht dieses auf Docker Hub.",
                     "link": {
-                        "text": "(github.com/mstolin/wildcardHttp)",
+                        "text": "(https://github.com/mstolin/wildcardHttp)",
                         "uri": "https://github.com/mstolin/wildcardHttp"
                     },
                     "layout": "paragraph"
@@ -121,19 +124,19 @@
                 {
                     "title": "Auto CV",
                     "date": "2024",
-                    "text": "Dieses Projekt generiert automatisch ein Lebenslauf als PDF, mittels GitHub Actions CI/CD, basierend auf JSON Datenstrukturen. Zur Implementierung wurde Python, Jinja, und Shell Script verwendent. ",
+                    "text": "Dieses Projekt generiert automatisch ein Lebenslauf als PDF, mittels GitHub Actions CI/CD, basierend auf JSON Datenstrukturen. Zur Implementierung wurde Python, Jinja, und Shell Scripts eingesetzt.",
                     "link": {
-                        "text": "(github.com/mstolin/cv)",
+                        "text": "(https://github.com/mstolin/cv)",
                         "uri": "https://github.com/mstolin/cv"
                     },
                     "layout": "paragraph"
                 },
                 {
-                    "title": "Wishlist Inviter (Kurs Projekt)",
+                    "title": "Wishlist Inviter",
                     "date": "2023",
-                    "text": "Erstellung einer Web-Applikation in Go und Python mittels der Microservice Architektur die Wunschlisten von Amazon kopiert.",
+                    "text": "Eine Anwendung die es ermöglicht Wunschlisten von Amazon zu extrahieren, zu verwalten und andere Personen per E-Mail einzuladen, Artikel zu kaufen. Services sind unterteilt in mehreren Microservices welche jeweils in Linux Container laufen und mittels REST-APIs kommunizieren. Zur Authentifizierung wurde JWT eingesetzt und Daten werden in einer PostgreSQL DB gespeichert. Services wurden mit Go und Python programmiert.",
                     "link": {
-                        "text": "(github.com/mstolin/wishlist-inviter)",
+                        "text": "(https://github.com/mstolin/wishlist-inviter)",
                         "uri": "https://github.com/mstolin/wishlist-inviter"
                     },
                     "layout": "paragraph"
@@ -141,9 +144,9 @@
                 {
                     "title": "Computing within Limits 2022 (Wissenschaftlicher Artikel)",
                     "date": "2022",
-                    "text": "Co-Autor eines wissenschaftlichen Artikels für ein Resourcen-effizientes Kubernetes Cluster (\\textit{reCluster}).",
+                    "text": "Co-Autor eines wissenschaftlichen Artikels für ein Resourcen-effizienten Kubernetes Cluster mittles k3s (\\textit{reCluster}). Meine Aufgabe war die Erforschung von Container Technologien (OCI runtimes \\& CRIs) die resource-effiziente Microservices auf einem heterogenen cluster ermöglichen. Zudem habe ich das Monitoring für die Worker Nodes implementiert, basierend auf Prometheus und Grafana.",
                     "link": {
-                        "text": "(computingwithinlimits.org/2022/papers/limits22-final-Angeli.pdf)",
+                        "text": "(https://computingwithinlimits.org/2022/papers/limits22-final-Angeli.pdf)",
                         "uri": "https://computingwithinlimits.org/2022/papers/limits22-final-Angeli.pdf"
                     },
                     "layout": "paragraph"
@@ -160,7 +163,7 @@
                 },
                 {
                     "title": "Tools",
-                    "text": "Ansible, Containerization, Git, Linux, Make, Packer, Podman, Terraform, WebAssembly"
+                    "text": "Ansible, Linux, Linux Container (Docker, Podman), Git, Packer, Podman, Terraform, WebAssembly"
                 },
                 {
                     "title": "Sprachen",
