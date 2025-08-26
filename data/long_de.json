@@ -18,33 +18,33 @@
                 {
                     "title": "Software Engineer (Werkstudent \\& Master Thesis)",
                     "subtitle": "ETAS GmbH, Advanced Engineering",
-                    "location": "Stuttgart, Germany",
+                    "location": "Stuttgart",
                     "date": "Apr. 2023 - Dez. 2024",
                     "text": [
                         "Master Thesis: \\textit{Paving the way for Safe and Portable Software Components for the Software-Defined Vehicle using Rust and WebAssembly}",
-                        "Programmierung Microservices für Automotive Systems mittels Rust und WebAssembly,",
+                        "Programmierung von Microservices für Automotive Systems mit Rust und WebAssembly,",
                         "Deployment Automatisierung von Linux und Microservices auf eingebetteten Systemen mit Ansible",
-                        "Benchmark Automatisierung für Automotive Software auf verschiedenen CPU Architekturen mittels perf und Python"
+                        "Benchmark Automatisierung für Automotive Software auf verschiedenen CPU Architekturen mit perf und Python"
                     ]
                 },
                 {
                     "title": "Wissenschaftlicher Mitarbeiter",
                     "subtitle": "Fraunhofer IPA",
-                    "location": "Stuttgart, Germany",
+                    "location": "Stuttgart",
                     "date": "Sep. 2020 - Jun. 2021",
                     "text": [
                         "Bachelor Thesis: \\textit{Automated Deployment of Machine Learning Applications on a Scalable Heterogeneous GPU-Accelerated Apache Spark Cluster}",
-                        "High Performance Computing Cluster für Machine Learning Modelle mit Kubernetes und Docker"
+                        "High Performance Computing Cluster für Machine Learning Training mit Kubernetes und Docker"
                     ]
                 },
                 {
                     "title": "Data Engineer (Praktikum \\& Werkstudent)",
                     "subtitle": "Robert Bosch GmbH, Bosch Center for Artificial Intelligence",
-                    "location": "Renningen, Germany",
+                    "location": "Renningen",
                     "date": "Mai 2019 - Sep. 2020",
                     "text": [
                         "Automatische Veröffentlichung von ETL-Pipelines auf MS Azure VMs via CI/CD, Terraform, Packer, Ansible",
-                        "Erstellung von ETL Pipelines mittels Apache Kafka und Scala"
+                        "Erstellung von ETL Pipelines mit Apache Kafka und Scala"
                     ]
                 },
                 {
@@ -53,14 +53,14 @@
                     "location": "Sunnyvale, CA, USA",
                     "date": "Okt. 2018 - Mar. 2019",
                     "text": [
-                        "Implementierung von Apache Kafka ETL-Pielines mit Scala",
-                        "Sicherheitsanalyse (Sanity Checks \\& Unit Tests) von ETL-Pipeline Software Modulen"
+                        "Implementierung von Apache Kafka ETL-Pipelines mit Scala",
+                        "Sicherheitsanalyse (Sanity Checks \\& Unit Tests) von ETL Software Modulen"
                     ]
                 },
                 {
                     "title": "Software Engineer (Werkstudent)",
                     "subtitle": "MWAY DIGITAL GmbH",
-                    "location": "Stuttgart, Deutschland",
+                    "location": "Stuttgart",
                     "date": "Nov. 2016 - Aug. 2018",
                     "text": [
                         "Implementierung von nativen iOS Apps mit Swift und Objective-C",
@@ -71,7 +71,7 @@
                 {
                     "title": "Mobile Developer",
                     "subtitle": "opwoco GmbH (übernommen von d.velop AG)",
-                    "location": "Coesfeld, Deutschland",
+                    "location": "Coesfeld",
                     "date": "Aug. 2012 - Jul. 2015",
                     "text": [
                         "Ausbildung als Fachinformatiker für Anwendungsentwicklung",
@@ -98,7 +98,7 @@
                 {
                     "title": "Bachelor of Science, Mobile Medien",
                     "subtitle": "Hochschule der Medien",
-                    "location": "Stuttgart, Deutschland",
+                    "location": "Stuttgart",
                     "date": "2016 - 2021",
                     "text": [
                         "Abschlussnote: 2.0",
@@ -134,7 +134,7 @@
                 {
                     "title": "Wishlist Inviter",
                     "date": "2023",
-                    "text": "Eine Anwendung die es ermöglicht Wunschlisten von Amazon zu extrahieren, zu verwalten und andere Personen per E-Mail einzuladen, Artikel zu kaufen. Services sind unterteilt in mehreren Microservices welche jeweils in Linux Container laufen und mittels REST-APIs kommunizieren. Zur Authentifizierung wurde JWT eingesetzt und Daten werden in einer PostgreSQL DB gespeichert. Services wurden mit Go und Python programmiert.",
+                    "text": "Eine Anwendung die es ermöglicht Wunschlisten von Amazon zu extrahieren, zu verwalten und andere Personen per E-Mail einzuladen, Artikel zu kaufen. Services sind unterteilt in mehreren Microservices welche jeweils in Linux Container laufen und mittels REST-APIs kommunizieren. Zur Authentifizierung wurde JWT eingesetzt und Daten werden in einer PostgreSQL DB gespeichert. Microservices wurden mit Go und Python programmiert.",
                     "link": {
                         "text": "(https://github.com/mstolin/wishlist-inviter)",
                         "uri": "https://github.com/mstolin/wishlist-inviter"
@@ -144,7 +144,7 @@
                 {
                     "title": "Computing within Limits 2022 (Wissenschaftlicher Artikel)",
                     "date": "2022",
-                    "text": "Co-Autor eines wissenschaftlichen Artikels für ein Resourcen-effizienten Kubernetes Cluster mittles k3s (\\textit{reCluster}). Meine Aufgabe war die Erforschung von Container Technologien (OCI runtimes \\& CRIs) die resource-effiziente Microservices auf einem heterogenen cluster ermöglichen. Zudem habe ich das Monitoring für die Worker Nodes implementiert, basierend auf Prometheus und Grafana.",
+                    "text": "Co-Autor eines wissenschaftlichen Artikels für ein Resourcen-effizienten Kubernetes Cluster basierend auf k3s (\\textit{reCluster}). Meine Aufgabe war die Erforschung von Container Technologien (OCI runtimes \\& CRIs) die Resourcen-effiziente Microservices auf einem heterogenen Cluster ermöglichen. Zudem habe ich das Monitoring für die Worker Nodes implementiert, basierend auf Prometheus und Grafana.",
                     "link": {
                         "text": "(https://computingwithinlimits.org/2022/papers/limits22-final-Angeli.pdf)",
                         "uri": "https://computingwithinlimits.org/2022/papers/limits22-final-Angeli.pdf"
