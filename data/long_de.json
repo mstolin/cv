@@ -22,7 +22,7 @@
                     "date": "Apr. 2023 - Dez. 2024",
                     "text": [
                         "Master Thesis: \\textit{Paving the way for Safe and Portable Software Components for the Software-Defined Vehicle using Rust and WebAssembly}",
-                        "Programmierung von Microservices für Automotive Systems mit Rust und WebAssembly,",
+                        "Programmierung von Software-Modulen für Automotive Systems mit Rust und WebAssembly,",
                         "Deployment Automatisierung von Linux und Microservices auf eingebetteten Systemen mit Ansible",
                         "Benchmark Automatisierung für Automotive Software auf verschiedenen CPU Architekturen mit perf und Python"
                     ]
