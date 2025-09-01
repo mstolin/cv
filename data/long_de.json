@@ -159,7 +159,7 @@
             "content": [
                 {
                     "title": "Programmiersprachen",
-                    "text": "Rust, Golang, Python, Shell Scripting, Java, C"
+                    "text": "Rust, Golang, Python, Shell Scripting, Java, C/C++"
                 },
                 {
                     "title": "Tools",
@@ -171,7 +171,7 @@
                 },
                 {
                     "title": "Zertifikate",
-                    "text": "Introduction to DevOps and Site Reliability Engineering (edX, 2021), Machine Learning Engineer Nanodegree (Udacity, 2020)"
+                    "text": "C for Everyone (Coursera, 2025), Introduction to DevOps and Site Reliability Engineering (edX, 2021), Machine Learning Engineer Nanodegree (Udacity, 2020)"
                 }
             ]
         }
