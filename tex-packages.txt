@@ -1,0 +1,12 @@
+babel
+color
+enumitem
+fancyhdr
+fullpage
+hyperref
+latexsym
+marvosym
+scheme-basic
+tabularx
+titlesec
+verbatim
