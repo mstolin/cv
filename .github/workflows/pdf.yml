@@ -21,7 +21,7 @@ jobs:
           sudo apt update && sudo apt upgrade -y
       - uses: TeX-Live/setup-texlive-action@v3
         with:
-          package-file: "**/tex-requirements.txt"
+          package-file: "**/tex-packages.txt"
       - name: Install packages
         run: |
           sudo apt install -y latexmk
@@ -38,7 +38,7 @@ jobs:
       - name: Create _site directory
         run: mkdir _site/
       - name: Build .tex files
-        run: ./build_tex.sh data/ build/
+        run: ./build_tex.sh data/ templates/jakes_resume.tex.jinja2 build/
       - name: Build PDF files
         run: ./build_pdf.sh build/ build/
       - name: Move all PDFs to _site
