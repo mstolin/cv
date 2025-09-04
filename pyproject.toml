@@ -1,0 +1,9 @@
+[project]
+name = "cv"
+version = "0.1.0"
+description = "CV Automation"
+readme = "Readme.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jinja2==3.1.4",
+]
