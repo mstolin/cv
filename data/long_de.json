@@ -164,7 +164,7 @@
                 },
                 {
                     "title": "Tools",
-                    "text": "Ansible, Linux, Linux Container (Docker, Podman), Git, K8s, Packer, Podman, Terraform, WebAssembly"
+                    "text": "Ansible, GitHub, GitLab, Linux, Linux Container (Docker, Podman), Git, K8s, Packer, Podman, Terraform, WebAssembly"
                 },
                 {
                     "title": "Sprachen",
