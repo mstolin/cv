@@ -24,7 +24,7 @@
                         "Master Thesis: \\textit{Paving the way for Safe and Portable Software Components for the Software-Defined Vehicle using Rust and WebAssembly}",
                         "Programmierung von Software-Modulen für Automotive Systems mit Rust und WebAssembly,",
                         "Deployment Automatisierung von Linux und Microservices auf eingebetteten Systemen mit Ansible",
-                        "Benchmark Automatisierung für Automotive Software auf verschiedenen CPU Architekturen mit perf und Python"
+                        "Benchmark Automatisierung für Automotive Software auf verschiedenen CPU Architekturen mit Python und Shell-Skripts"
                     ]
                 },
                 {
@@ -34,7 +34,8 @@
                     "date": "Sep. 2020 - Jun. 2021",
                     "text": [
                         "Bachelor Thesis: \\textit{Automated Deployment of Machine Learning Applications on a Scalable Heterogeneous GPU-Accelerated Apache Spark Cluster}",
-                        "High Performance Computing Cluster für Machine Learning Training mit Kubernetes und Docker"
+                        "High Performance Computing Cluster für Machine Learning Training mit Kubernetes und Docker",
+                        "Automatisierung von ML-Modell Training auf Docker Container mit GitLab CI/CD und Python"
                     ]
                 },
                 {
@@ -163,7 +164,7 @@
                 },
                 {
                     "title": "Tools",
-                    "text": "Ansible, Linux, Linux Container (Docker, Podman), Git, Packer, Podman, Terraform, WebAssembly"
+                    "text": "Ansible, Linux, Linux Container (Docker, Podman), Git, K8s, Packer, Podman, Terraform, WebAssembly"
                 },
                 {
                     "title": "Sprachen",
