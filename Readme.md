@@ -14,44 +14,41 @@ An example is available at [marcel.to/cv/short.pdf](https://marcel.to/cv/short.p
 
 ## Requirements
 
--   [Python3](https://www.python.org/)
+-   Python via [uv](https://docs.astral.sh/uv/)
 -   [Tex Live](https://www.tug.org/texlive/)
 -   [Latexmk](https://ctan.org/pkg/latexmk/)
 
 ## Manual Build
 
-1. Run the script to generate `.tex` files. Additionally, a build script is available at `gen_tex.sh`.
+1. Run the script to generate `.tex` files. Additionally, a build script is available at `build_tex.sh`.
     ```sh
-    uv run gen_cv.py data/short.json templates/jakes_resume.tex.jinja2 short.tex
+    uv run gen_cv.py data/short.json templates/jakes_resume.tex.jinja2 build/short.tex
+    # Or
+    ./build_tex.sh data/ templates/jakes_resume.tex.jinja2 build/
     ```
 2. Build the `.pdf` file. A build script is available at `build_pdf.sh`.
     ```sh
     latexmk -interaction=nonstopmode -file-line-error -pdf -halt-on-error -shell-escape -outdir=. short.tex
+    # Or
+    ./build_pdf.sh build/ pdf/
     ```
 
-## Build locally (using a container)
+## Build using Docker Container
 
-1. Build the image.
+First, build the Docker container as `localhost/cv:latest`.
 
-    ```sh
-    docker build --tag "localhost/latex-full:latest" .
-    ```
+```sh
+docker build --tag "localhost/cv:latest" .
+```
 
-2. Build the `.tex` file (see previous section).
+Next, build the `.tex` and `.pdf` files.
 
-    ```sh
-    python gen_cv.py data/short.json templates/jakes_resume.tex.jinja2 short.tex
-    ```
-
-3. Build the `.pdf` file (`SOURCE` is the local folder where `short.tex` is located).
-
-    ```sh
-    # docker
-    docker run --rm -v SOURCE:TARGET localhost/latex-full:latest buildpdf SOURCE DEST
-
-    # podman
-    podman run --rm --user=ubuntu \
-    --userns=keep-id:uid=1000,gid=1000 \
-    -v "$(pwd)"/SOURCE/:/mnt/cv:z localhost/latex-full:latest \
-    buildpdf /mnt/cv /mnt/cv
-    ```
+```sh
+docker run --rm -it \
+  --mount type=bind,src=./data/,dst=/mnt/data/,ro \
+  --mount type=bind,src=./templates/jakes_resume.tex.jinja2,dst=/mnt/templates/jakes_resume.tex.jinja2,ro \
+  --mount type=bind,src=./tex/,dst=/mnt/tex/ \
+  --mount type=bind,src=./pdf/,dst=/mnt/pdf/ \
+  localhost/cv:latest \
+  sh -c "buildtex /mnt/data /mnt/templates/jakes_resume.tex.jinja2 /mnt/tex && buildpdf /mnt/tex /mnt/pdf"
+```
