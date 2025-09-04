@@ -21,19 +21,7 @@ jobs:
           sudo apt update && sudo apt upgrade -y
       - uses: TeX-Live/setup-texlive-action@v3
         with:
-          packages: |
-            scheme-basic
-            latexsym
-            titlesec
-            marvosym
-            color
-            verbatim
-            enumitem
-            hyperref
-            fancyhdr
-            babel
-            tabularx
-            fullpage
+          package-file: "**/tex-requirements.txt"
       - name: Install packages
         run: |
           sudo apt install -y latexmk
