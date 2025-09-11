@@ -160,7 +160,7 @@
             "content": [
                 {
                     "title": "Programmiersprachen",
-                    "text": "Rust, Golang, Python, Shell Scripting, Java, C/C++"
+                    "text": "Rust, Golang, Python, Shell Scripting, Java, JavaScript, C"
                 },
                 {
                     "title": "Tools",
