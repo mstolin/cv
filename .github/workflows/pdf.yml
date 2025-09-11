@@ -16,9 +16,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Update and upgrade packages
-        run: |
-          sudo apt update && sudo apt upgrade -y
       - uses: TeX-Live/setup-texlive-action@v3
         with:
           package-file: |
