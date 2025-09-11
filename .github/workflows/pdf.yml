@@ -18,8 +18,19 @@ jobs:
     steps:
       - uses: TeX-Live/setup-texlive-action@v3
         with:
-          package-file: |
-            **/tl_packages
+          packages: |
+            babel
+            color
+            enumitem
+            fancyhdr
+            fullpage
+            hyperref
+            latexsym
+            marvosym
+            scheme-basic
+            tabularx
+            titlesec
+            verbatim
       - name: Install packages
         run: |
           sudo apt install -y latexmk
