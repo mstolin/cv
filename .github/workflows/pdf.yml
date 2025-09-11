@@ -21,7 +21,8 @@ jobs:
           sudo apt update && sudo apt upgrade -y
       - uses: TeX-Live/setup-texlive-action@v3
         with:
-          package-file: "**/tex-packages.txt"
+          package-file: |
+            .github/tl_packages
       - name: Install packages
         run: |
           sudo apt install -y latexmk
