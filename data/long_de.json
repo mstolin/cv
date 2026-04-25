@@ -2,10 +2,6 @@
     "title": "Lebenslauf - Marcel Stolin",
     "links": [
         {
-            "text": "linkedin.com/in/$\\sim$marcel",
-            "uri": "https://www.linkedin.com/in/~marcel"
-        },
-        {
             "text": "github.com/mstolin",
             "uri": "https://github.com/mstolin"
         }
@@ -53,7 +49,7 @@
                     "location": "Renningen",
                     "date": "Mai 2019 - Sep. 2020",
                     "text": [
-                        "Automatische Veröffentlichung von ETL-Pipelines auf MS Azure VMs via CI/CD, Terraform, Packer, Ansible",
+                        "Administration der Cloud-Infrastruktur auf MS Azure VMs mittels CI/CD, Terraform, Packer, Ansible",
                         "Erstellung von ETL Pipelines mit Apache Kafka und Scala"
                     ]
                 },
@@ -64,7 +60,7 @@
                     "date": "Okt. 2018 - Mar. 2019",
                     "text": [
                         "Implementierung von Apache Kafka ETL-Pipelines mit Scala",
-                        "Sicherheitsanalyse (Sanity Checks \\& Unit Tests) von ETL Software Modulen"
+                        "Gewährleistung der Datenintegrität durch Sicherheitsanalysen und automatisierte Tests"
                     ]
                 },
                 {
@@ -102,7 +98,7 @@
                     "text": [
                         "Aktuelle Note: 28.67 (30.0 ist die bestmögliche Note)",
                         "Vertiefung: Software and Service Architecture",
-                        "Relevante Kurse: Advanced Programming, Autonomous Software Agents, Distributed Systems 1,\\\\ Introduction to Computer and Network Security, Security Testing, Web Architectures,\\\\ Service Design and Engineering"
+                        "Relevante Kurse: Advanced Programming, Autonomous Software Agents, Distributed Systems 1,\\\\ Introduction to Computer and Network Security, Security Testing, Service Design and Engineering"
                     ]
                 },
                 {
@@ -112,47 +108,17 @@
                     "date": "2016 - 2021",
                     "text": [
                         "Abschlussnote: 2.0",
-                        "Relevante Kurse: Advanced Programming in C++, Algorithmen und Datenstrukturen, Künstliche Intelligenz, Database Systems 1, Functional Programming, Software Development 1+2, Web Development 1+2"
+                        "Relevante Kurse: Advanced Programming in C++, Algorithmen und Datenstrukturen, Künstliche Intelligenz, Database Systems 1, Data Mining, Natural Language Processing"
                     ]
                 }
             ]
         },
         {
-            "title": "Projekte",
+            "title": "Veröffentlichungen",
             "layout": "paragraph",
             "content": [
                 {
-                    "title": "WildcardHttp",
-                    "date": "2025",
-                    "text": "Ein HTTP Debug-Tool erstellt mit Golang. Zudem automatisiert eine GitHub Actions CI/CD Pipeline das Erstellen des Docker Image und veröffentlicht dieses auf Docker Hub.",
-                    "link": {
-                        "text": "(https://github.com/mstolin/wildcardHttp)",
-                        "uri": "https://github.com/mstolin/wildcardHttp"
-                    },
-                    "layout": "paragraph"
-                },
-                {
-                    "title": "Auto CV",
-                    "date": "2024",
-                    "text": "Dieses Projekt generiert automatisch ein Lebenslauf als PDF, mittels GitHub Actions CI/CD, basierend auf JSON Datenstrukturen. Zur Implementierung wurde Python, Jinja, und Shell Scripts eingesetzt.",
-                    "link": {
-                        "text": "(https://github.com/mstolin/cv)",
-                        "uri": "https://github.com/mstolin/cv"
-                    },
-                    "layout": "paragraph"
-                },
-                {
-                    "title": "Wishlist Inviter",
-                    "date": "2023",
-                    "text": "Eine Anwendung die es ermöglicht Wunschlisten von Amazon zu extrahieren, zu verwalten und andere Personen per E-Mail einzuladen, Artikel zu kaufen. Services sind unterteilt in mehreren Microservices welche jeweils in Linux Container laufen und mittels REST-APIs kommunizieren. Zur Authentifizierung wurde JWT eingesetzt und Daten werden in einer PostgreSQL DB gespeichert. Microservices wurden mit Go und Python programmiert.",
-                    "link": {
-                        "text": "(https://github.com/mstolin/wishlist-inviter)",
-                        "uri": "https://github.com/mstolin/wishlist-inviter"
-                    },
-                    "layout": "paragraph"
-                },
-                {
-                    "title": "Computing within Limits 2022 (Wissenschaftlicher Artikel)",
+                    "title": "Computing within Limits 2022",
                     "date": "2022",
                     "text": "Co-Autor eines wissenschaftlichen Artikels für ein Resourcen-effizienten Kubernetes Cluster basierend auf k3s (\\textit{reCluster}). Meine Aufgabe war die Erforschung von Container Technologien (OCI runtimes \\& CRIs) die Resourcen-effiziente Microservices auf einem heterogenen Cluster ermöglichen. Zudem habe ich das Monitoring für die Worker Nodes implementiert, basierend auf Prometheus und Grafana.",
                     "link": {
@@ -169,11 +135,15 @@
             "content": [
                 {
                     "title": "Programmiersprachen",
-                    "text": "Rust, Golang, Python, Shell Scripting, Java, JavaScript, C"
+                    "text": "Rust, Python, Shell Scripting, Java, C"
+                },
+                {
+                    "title": "Datenbanken",
+                    "text": "PostgreSQL, MySQL, SQLite, MongoDB, SQL"
                 },
                 {
                     "title": "Tools",
-                    "text": "Ansible, GitHub, GitLab, Linux, Linux Container (Docker, Podman), Git, K8s, Packer, Podman, Terraform, WebAssembly"
+                    "text": "Ansible, Git, Linux, Linux Container (Docker), Git, Packer, Terraform, "
                 },
                 {
                     "title": "Sprachen",
