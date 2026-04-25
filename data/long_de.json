@@ -16,6 +16,15 @@
             "layout": "experience",
             "content": [
                 {
+                    "title": "Runner",
+                    "subtitle": "Picnic GmbH",
+                    "location": "Stuttgart",
+                    "date": "Sep. 2025 - Heute",
+                    "text": [
+                        "Nebenberuf als Lieferant für Lebensmittel"
+                    ]
+                },
+                {
                     "title": "Software Engineer (Werkstudent \\& Master Thesis)",
                     "subtitle": "ETAS GmbH, Advanced Engineering",
                     "location": "Stuttgart",
@@ -89,7 +98,7 @@
                     "title": "Master of Science, Computer Science",
                     "subtitle": "Universität Trento (Università di Trento)",
                     "location": "Trento, Italien",
-                    "date": "2021 - Heute (pausiert)",
+                    "date": "2021 - Heute (pausiert seit September 2025)",
                     "text": [
                         "Aktuelle Note: 28.67 (30.0 ist die bestmögliche Note)",
                         "Vertiefung: Software and Service Architecture",
