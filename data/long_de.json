@@ -12,12 +12,13 @@
             "layout": "experience",
             "content": [
                 {
-                    "title": "Runner",
+                    "title": "Runner Trainer (Nebenberuflich)",
                     "subtitle": "Picnic GmbH",
                     "location": "Stuttgart",
                     "date": "Sep. 2025 - Heute",
                     "text": [
-                        "Nebenberuf als Lieferant für Lebensmittel"
+                        "Lieferant für Lebensmittel in der Region Stuttgart",
+                        "Einarbeitung von neuen Angestellten"
                     ]
                 },
                 {
@@ -27,7 +28,7 @@
                     "date": "Apr. 2023 - Dez. 2024",
                     "text": [
                         "Master Thesis: \\textit{Paving the way for Safe and Portable Software Components for the Software-Defined Vehicle using Rust and WebAssembly}",
-                        "Programmierung von Software-Modulen für Automotive Systems mit Rust und WebAssembly,",
+                        "Programmierung von Software-Modulen für Automotive Systems mit Rust und WebAssembly",
                         "Deployment Automatisierung von Linux und Microservices auf eingebetteten Systemen mit Ansible",
                         "Benchmark Automatisierung für Automotive Software auf verschiedenen CPU Architekturen mit Python und Shell-Skripts"
                     ]
