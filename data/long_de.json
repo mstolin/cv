@@ -50,8 +50,8 @@
                     "location": "Renningen",
                     "date": "Mai 2019 - Sep. 2020",
                     "text": [
-                        "Administration der Cloud-Infrastruktur auf MS Azure VMs mittels CI/CD, Terraform, Packer, Ansible",
-                        "Erstellung von ETL Pipelines mit Apache Kafka und Scala"
+                        "Sicherer Betrieb und Automatisierung von Cloud-Infrastrukturen (MS Azure) mittels CI/CD und Infrastructure-as-Code (Terraform, Ansible)",
+                        "Konzeption und Implementierung von Datenverarbeitungsprozessen mit Fokus auf Datensicherheit und Integrität, inklusive Sicherheitsanalysen von Software-Modulen"
                     ]
                 },
                 {
@@ -99,7 +99,7 @@
                     "text": [
                         "Aktuelle Note: 28.67 (30.0 ist die bestmögliche Note)",
                         "Vertiefung: Software and Service Architecture",
-                        "Relevante Kurse: Advanced Programming, Autonomous Software Agents, Distributed Systems 1,\\\\ Introduction to Computer and Network Security, Security Testing, Service Design and Engineering"
+                        "Relevante Kurse: Advanced Programming, Privacy and Intellectual Property Rights, Distributed Systems 1,\\\\ Introduction to Computer and Network Security, Security Testing, Service Design and Engineering"
                     ]
                 },
                 {
@@ -109,7 +109,7 @@
                     "date": "2016 - 2021",
                     "text": [
                         "Abschlussnote: 2.0",
-                        "Relevante Kurse: Advanced Programming in C++, Algorithmen und Datenstrukturen, Künstliche Intelligenz, Database Systems 1, Data Mining and Pattern Recognition, Natural Language Processing"
+                        "Relevante Kurse: IT Recht, IT Security, Künstliche Intelligenz, Database Systems 1, Data Mining and Pattern Recognition, Web Development"
                     ]
                 }
             ]
