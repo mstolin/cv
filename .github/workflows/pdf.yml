@@ -20,17 +20,15 @@ jobs:
         with:
           packages: |
             babel
-            color
             enumitem
             fancyhdr
-            fullpage
             hyperref
             latexsym
             marvosym
+            preprint
             scheme-basic
-            tabularx
+            tools
             titlesec
-            verbatim
       - name: Install packages
         run: |
           sudo apt install -y latexmk
